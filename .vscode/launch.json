@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "type": "sldb",
+            "request": "launch",
+            "name": "(sldb) Launch",
+            "program": "${workspaceFolder}/sockmerchant",
+            "args": ["10", "bbb"]
+        }
+    ]
+}
