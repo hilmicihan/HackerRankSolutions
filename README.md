@@ -171,3 +171,18 @@ Harold is a kidnapper who wrote a ransom note, but now he is worried it will be 
 Given the words in the magazine and the words in the ransom note, print Yes if he can replicate his ransom note exactly using whole words from the magazine; otherwise, print No.
 
 For example, the note is "Attack at dawn". The magazine contains only "attack at dawn". The magazine has all the right words, but there's a case mismatch. The answer is .
+## 2-Two Strings
+###### Problem Github link 
+https://www.hackerrank.com/challenges/two-strings/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
+###### Description
+Given two strings, determine if they share a common substring. A substring may be as small as one character.
+
+For example, the words "a", "and", "art" share the common substring . The words "be" and "cat" do not share a substring.
+
+Function Description
+
+Complete the function twoStrings in the editor below. It should return a string, either YES or NO based on whether the strings share a common substring.
+
+twoStrings has the following parameter(s):
+
+s1, s2: two strings to analyze .
