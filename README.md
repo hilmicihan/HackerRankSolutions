@@ -161,7 +161,7 @@ Sample Output 1
 Explanation 1
 Because all of the first  letters of the infinite string are a, we print  on a new line.
 # Hash Tables Solution
-## 1-Ransom note
+## 5-Ransom note
 ###### Problem Github link 
 https://www.hackerrank.com/challenges/ctci-ransom-note/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
 ###### Description
@@ -171,7 +171,7 @@ Harold is a kidnapper who wrote a ransom note, but now he is worried it will be 
 Given the words in the magazine and the words in the ransom note, print Yes if he can replicate his ransom note exactly using whole words from the magazine; otherwise, print No.
 
 For example, the note is "Attack at dawn". The magazine contains only "attack at dawn". The magazine has all the right words, but there's a case mismatch. The answer is .
-## 2-Two Strings
+## 6-Two Strings
 ###### Problem Github link 
 https://www.hackerrank.com/challenges/two-strings/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
 ###### Description
@@ -186,3 +186,19 @@ Complete the function twoStrings in the editor below. It should return a string,
 twoStrings has the following parameter(s):
 
 s1, s2: two strings to analyze .
+## 7-CountTriplets
+###### Problem Github link 
+https://www.hackerrank.com/challenges/count-triplets-1/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
+###### Description
+You are given an array and you need to find number of tripets of indices  such that the elements at those indices are in geometric progression for a given common ratio  and .
+
+For example, . If , we have  and  at indices  and .
+
+Function Description
+
+Complete the countTriplets function in the editor below. It should return the number of triplets forming a geometric progression for a given  as an integer.
+
+countTriplets has the following parameter(s):
+
+arr: an array of integers
+r: an integer, the common ratio
