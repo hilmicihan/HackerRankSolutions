@@ -36,7 +36,6 @@ using namespace std;
 #ifndef _GLIBCXX_NO_ASSERT
 #include <cassert>
 #endif
-#include <iostream>
 #include <cctype>
 #include <cerrno>
 #include <cfloat>
@@ -65,7 +64,6 @@ using namespace std;
 #endif
 
 // C++
-
 #include <algorithm>
 #include <bitset>
 #include <complex>
